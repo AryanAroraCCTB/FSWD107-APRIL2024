@@ -4,6 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>DOM Demo</title>
+        <link rel="stylesheet" href="style.css" />
     </head>
     <body>
         <div id="container" class="page">
@@ -14,14 +15,30 @@
             </p>
         </div>
 
+        <h1 class="ttext">
+            <p>Some Text</p>
+        </h1>
+
         <h1>Some Text</h1>
+
+        <button id="magic-btn">Click Me to see Magic</button>
 
         <div id="container-sub" class="page">
             <h1>Page Sub-Heading</h1>
         </div>
 
-        <label name="email">Your Email</label>
-        <input name="email" value="cctb.ca" type="email" placeholder="Email" />
+        <label name="email" onclick="el_clicked()" on>Your Email</label>
+        <input id="user-email" ="email" value="cctb.ca" type="email" placeholder="Email" />
+
+        <img alt="test image" src="./test.png" />
+
+        <hr style="margin-bottom: 20px" />
+        <hr style="margin-bottom: 20px" />
+        <hr style="margin-bottom: 20px" />
+
+        <div id="container-new-nodes">
+            <span>Temp. Text</span>
+        </div>
 
         <script src="./dom.js"></script>
     </body>
