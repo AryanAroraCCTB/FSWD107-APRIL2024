@@ -1,5 +1,5 @@
 {
-    "name": "express",
+    "name": "express-ejs",
     "version": "1.0.0",
     "description": "",
     "type": "module",
@@ -12,6 +12,7 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
+        "dotenv": "^16.4.5",
         "ejs": "^3.1.9",
         "express": "^4.19.2",
         "nodemon": "^3.1.0"
