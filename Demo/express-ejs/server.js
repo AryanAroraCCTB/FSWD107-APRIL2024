@@ -12,7 +12,7 @@ app.get("/", (req, res) => {
 app.get("/about", (req, res) => {
     res.render("index", { page_name: "About" });
 });
-
+``;
 app.get("/contact", (req, res) => {
     res.render("index", { page_name: "Contact" });
 });
