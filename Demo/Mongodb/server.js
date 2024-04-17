@@ -27,7 +27,7 @@ console.log(names);
 let result;
 
 // Create
-result = await db.collection('users').insertOne({name: 'ABC', age: 25});
+result = await db.collection('users').insertOne({name: 'ABC', age: '25', hobbies: [], friends: [{}]});
 result = await db.collection('users').insertOne({name: 'FGH', age: 29, email: 'xyz@gmail.com'});
 result = await db.collection('users').insertMany([{name: 'DEF', age: 23}, {name: 'XYZ', age: 27}]);
 console.log(result);
